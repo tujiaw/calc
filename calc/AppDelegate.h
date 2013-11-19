@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    UILabel *_inputHistroy;
+    UILabel *_inputCurrent;
+}
 @property (strong, nonatomic) UIWindow *window;
 
 @end
